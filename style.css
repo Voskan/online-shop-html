@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.shop_header {
+  background: linear-gradient(to bottom,  #9e0000 1%,#d82d2d 100%);
+  color: #ECF0F1;
+  box-shadow: 0px 1px 9px 1px #777777;
+}
+
+.shop_header a {
+  text-decoration: none;
+}
+
+.shop_logo {
+  float: left;
+  margin: 3px 0 0 10px;
+}
+
+.shop_logo img {
+  height: 40px;
+}
+
+.shop_nav {
+  float: right;
+  width: 500px;
+}
+
+.shop_nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shop_nav .shop_main_menu {
+  float: left;
+}
+
+.shop_nav .shop_main_menu li {
+  float: left;
+}
+
+.shop_nav .shop_main_menu li a {
+  display: block;
+  padding: 15px 10px;
+  color: #ECF0F1;
+  transition: all 0.4s;
+}
+
+.shop_nav .shop_main_menu li a:hover {
+  background-color: #ECF0F1;
+  color: #C0392B;
+}
+
+.shop_nav .shop_user_box {
+  float: right;
+  margin-right: 10px;
+}
+
+.shop_nav .shop_user_box li {
+  float: left;
+}
+
+.shop_nav .shop_user_box li a {
+  display: block;
+  padding: 15px 10px;
+  color: #ECF0F1;
+  transition: all 0.4s;
+}
+
+.shop_nav .shop_user_box li a:hover {
+  background-color: #ECF0F1;
+  color: #C0392B;
+}
+
+.shop_search {
+  float: left;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
+.shop_search .s_input {
+  padding: 5px 5px;
+  outline: none;
+  border: none;
+  width: 270px;
+  border-radius: 3px 0 0 3px;
+}
+
+.shop_search .s_btn {
+  padding: 5px 12px;
+  outline: none;
+  border: none;
+  position: relative;
+  left: -4px;
+  background-color: #ec8686;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  transition: all 0.4s;
+}
+
+.shop_search .s_btn:hover {
+  cursor: pointer;
+  background-color: #f1d4d4;
+  color: rgb(112, 9, 9);
+}
+
+.clearfix {
+  clear: both;
+}
