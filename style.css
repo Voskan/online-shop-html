@@ -357,6 +357,19 @@ html, body {
   font-size: 14px;
 }
 
+.news-head-section {
+  width: 500px;
+}
+
+.news-image img {
+  width: 100%;
+}
+
+.news-content {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
 .clearfix {
   clear: both;
 }
