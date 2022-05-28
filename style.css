@@ -348,6 +348,15 @@ html, body {
   border-bottom: 1px solid #ccc;
 }
 
+.news-cart {
+  height: 400px;
+}
+
+.news-cart p {
+  padding: 5px;
+  font-size: 14px;
+}
+
 .clearfix {
   clear: both;
 }
